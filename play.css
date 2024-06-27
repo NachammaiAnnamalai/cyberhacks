@@ -1,0 +1,53 @@
+body {
+  background-image: url('CyB.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #3716b1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0d0c0c;
+  color: #5b18f7;
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+.container {
+  scale: 1.00;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #0d0c0c;
+  color: #5b18f7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.option:hover {
+  background-color: #808080;

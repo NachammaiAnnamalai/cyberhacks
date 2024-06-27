@@ -1,0 +1,30 @@
+html {
+  height: 150%;
+  width: 100%;
+  background-image: url('Jback.png');
+
+
+  body {
+    background-image: url('Jback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.glow {
+ position: relative;
+ display: inline-block;
+}
+
+.glow:after {
+ content: "";
+ position: absolute;
+ top: -5px;
+ right: -5px;
+ bottom: -5px;
+ left: -5px;
+ box-shadow: 0 0 10px #ff0084, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
+ border-radius: 50%;
+ opacity: 0.5;
+}

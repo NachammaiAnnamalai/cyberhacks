@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" <title>
+  </title>
+
+</head>
+<!-- Background -->
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* Change Later */
+      background-image: url('CyB.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+  </style>
+</head>
+
+<!-- Background -->
+
+<body>
+
+  <!-- Login Form -->
+  <div class='contactForm'>
+    <img src="/images/pfp.png" alt="cyberpunk pixal  
+    background" class="pfp">
+    
+
+    <!-- I have no idea what I did to this submit button but I think it works -->
+    <form class="sign-up-form">
+      <h2>Hacker Name</h2>
+
+
+      <label for="email">What is your hacker username?</label> <input type="email" class="em" id="email" name="email" required>
+
+      <label for="password">Password</label> <input type="password" class="pass" id="password" name="password" required>
+
+
+      <input type="submit" value="Lets Play" class="sub" <button type="submit" name="submitf" value="register"
+        class="btn_dark_grey" onclick="redirectTo()" <input type="submit" value="Sign Up" class="sub" <button
+        type="submit" name="submitf" value="register" class="btn_dark_grey" <!--the sign in button code!-->
+      </button>
+    </form>
+
+
+    </form>
+
+    <!-- Might need to do a onclick="location.href='page1.html'"> on the submit button-->
+    <p>
+      <input type="checkbox"> Remember Me
+    </p>
+  </div>
+  <script>
+    function validateLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Check if username and password are correct
+      if (username === "user" && password === "password") {
+        alert("Login successful!");
+      } else {
+        document.getElementById("error-message").textContent = "Invalid username or password. Please try again.";
+      }
+    }
+  </script>
+</body>
+<script type="text/javascript">
+  function redirectTo() {
+    window.location.href = "play.html";
+  }
+</script>
+
+</html>

@@ -1,0 +1,13 @@
+html {
+  height: 150%;
+  width: 100%;
+  background-image: url('CyA.jpg');
+}
+
+body {
+  background-image: url('CyA.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+

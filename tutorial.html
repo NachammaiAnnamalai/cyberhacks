@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+  <title>Choose your coding weapon</title>
+
+  <style>
+    body {
+      min-height: 100vh;
+      display: grid;
+      background-image: url('tB.png');
+      padding-right: 10rem;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    .HeaderT {
+      text-align: center;
+      font-size: 3rem;
+      position: absolute;
+      top: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      text-shadow: 0 0 10px #9c27b0, 0 0 20px #9c27b0, 0 0 30px #9c27b0, 0 0 40px #9c27b0;
+      text-transform: uppercase;
+    }
+  </style>
+  <style>
+    .realbtn {
+      margin-left: 40px;
+      border: 1px solid #fff;
+      padding: 10px 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-top: 20px;
+      display: inline-block;
+      color: #ffffff;
+      background-color: #5e0080;
+      font-family: poppins;
+    }
+
+    .realbtn:hover {
+      background: #791397;
+      box-shadow: 0 3px #66037d;
+      color: #fff;
+    }
+
+    .button {
+      margin-left: 190px;
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 23px;
+      font-family: sans-serif;
+      cursor: pointer;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background: #9c27b0;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 5px #66037d;
+      transition: all 0.3s ease 0s;
+      text-transform: uppercase;
+      width: 200px;
+      /* add this line */
+    }
+
+    .button:hover {
+      background: #791397;
+      box-shadow: 0 3px #66037d;
+      color: #fff;
+    }
+
+    .button:active {
+      background: #66037d;
+      box-shadow: 0 1px #66037d;
+      color: #fff;
+    }
+
+    .container {
+      margin-top: 80px;
+      margin-left: 60px;
+      display: flex;
+      flex-direction: row;
+      background: transparent;
+      justify-content: space-between;
+      gap: 100px;
+      padding: 0 100px;
+      /* add this line */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="HeaderT">Choose your weapon java or python?</h1>
+
+  <div class="container">
+    <a href="level1P.html" class="button">Python</a>
+    <button class="realbtn" onclick="location.href='rT.html'">Or Learn How To Code Here!</button>
+    <a href="level1J.html" class="button">Javascript</a>
+
+  </div>
+
+
+
+</body>
+
+
+
+</html>

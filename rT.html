@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+  <title>Which do you want to learn?</title>
+
+  <style>
+    body {
+      min-height: 100vh;
+      display: grid;
+      background-image: url('tB.png');
+      padding-right: 10rem;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    .HeaderT {
+      text-align: center;
+      font-size: 3rem;
+      position: absolute;
+      top: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      text-shadow: 0 0 10px #007bff , 0 0 20px #007bff , 0 0 30px #9c27b0, 0 0 40px #230763;
+      text-transform: uppercase;
+    }
+  </style>
+  <style>
+   
+
+    .button {
+      display: inline-block;
+      margin: 5px;
+      margin-top: 120px;
+      margin-left: 150px;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 23px;
+      font-family: sans-serif;
+      cursor: pointer;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background: #3a0ca3 ;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 5px #230763;
+      transition: all 0.3s ease 0s;
+      text-transform: uppercase;
+      width: 200px;
+      /* add this line */
+    }
+
+    .button:hover {
+      background: #791397;
+      box-shadow: 0 3px #66037d;
+      color: #fff;
+    }
+
+    .button:active {
+      background: #66037d;
+      box-shadow: 0 1px #66037d;
+      color: #fff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      background: transparent;
+      justify-content: space-between;
+      gap: 100px;
+      padding: 0 100px;
+      /* add this line */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="HeaderT">Which do you want to learn about java or python?</h1>
+ 
+  <!-- Google slides -->
+  <div class="container">
+    <a href="pythontutorial.html"
+      class="button">Python</a>
+    <a href="jstutorial.html"
+      class="button">Javascript</a>
+  </div>
+
+</body>
+
+
+
+</html>
+
